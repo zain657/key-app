@@ -1,0 +1,57 @@
+:root{
+    --main-color:#ff00aa;
+    --main-font: "Dancing Script", cursive;
+    --logo-font:"Pacifico", cursive;
+    --btn-color:linear-gradient(to right, red, var(--main-color), #000);
+}
+
+
+main{
+    background-image: url(../imge/keyboard-background-z7fm47jyvkt01937.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.big-ch{
+    background-color: rgb(37, 37, 37);
+    border: 5px solid rgb(19, 19, 19);
+    border-radius: 5px;
+    box-shadow: 15px 15px 30px rgba(2, 49, 88, 0.8);
+}
+
+.key{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    width: 4.3%;
+    height: 70px;
+    border: 1px solid white;
+    color: white;
+}
+
+.a{
+    display: flex;
+    flex-direction: column;
+}
+
+.space{
+    width: 30.4%;
+}
+
+.zero,.bs,.een{
+    width: 8.6%;
+}
+
+.bsss{
+    width: 13%;
+}
+
+.scren{
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 17.2%;
+    color: #000;
+    background-color: #c8d5f8;
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- font-link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap"
+        rel="stylesheet">
+
+    <title>Key app</title>
+</head>
+
+<body>
+
+
+    <main class="vh-100 w-100 d-flex justify-content-center align-items-center">
+        <button class="btn w-25 btn-dark rounded-pill" id="btn">click to start</button>
+        <div id="Keybord" class="d-none container">
+            <div class="big-ch">
+                <div class="f-row d-flex flex-row">
+                    <div id="ecs" class="key">Ecs</div>
+                    <div class="key border-0"></div>
+                    <div id="f1" class="key">F1</div>
+                    <div id="f2" class="key">F2</div>
+                    <div id="f3" class="key">F3</div>
+                    <div id="f4" class="key">F4</div>
+                    <div class="key border-0"></div>
+                    <div id="f5" class="key">F5</div>
+                    <div id="f6" class="key">F6</div>
+                    <div id="f7" class="key">F7</div>
+                    <div id="f8" class="key">F8</div>
+                    <div id="f9" class="key">F9</div>
+                    <div id="f10" class="key">F10</div>
+                    <div id="f11" class="key">F11</div>
+                    <div id="f12" class="key">F12</div>
+                    <div class="key border-0"></div>
+                    <div id="ps" class="key a"><span>Print</span><span>Scren</span></div>
+                    <div id="sl" class="key a"><span>Scroll</span> <span>Lock</span></div>
+                    <div id="pb" class="key a"><span>Pause</span> <span>Break</span></div>
+                    <div class="key border-0"></div>
+                    <div id="scren1" class="key scren border-0"></div>
+                </div>
+                <div class="s-row d-flex flex-row">
+                    <div id="b1" class="key a"><span>~</span> <span>`</span></div>
+                    <div id="one" class="key">1</div>
+                    <div id="tow" class="key">2</div>
+                    <div id="three" class="key">3</div>
+                    <div id="four" class="key">4</div>
+                    <div id="five" class="key">5</div>
+                    <div id="six" class="key">6</div>
+                    <div id="seven" class="key">7</div>
+                    <div id="eight" class="key">8</div>
+                    <div id="nine" class="key">9</div>
+                    <div id="zero" class="key">0</div>
+                    <div id="aaaaaa" class="key a"><span>_</span><span>-</span></div>
+                    <div id="plus" class="key a"><span>+</span><span>=</span></div>
+                    <div id="bs" class="key bs">Backspace</div>
+                    <div class="key border-0 "></div>
+                    <div id="insert" class="key">Insert</div>
+                    <div id="home" class="key a"><span>Home</span></div>
+                    <div id="pu" class="key a"><span>Page</span><span>Up</span><span><i class="fa-solid fa-caret-up"></i></span></div>
+                    <div class="key border-0"></div>
+                    <div id="nl" class="key a"><span>Num</span><span>Lock</span></div>
+                    <div id="ss" class="key">/</div>
+                    <div id="multipli" class="key">*</div>
+                    <div id="aa" class="key">-</div>
+                </div>
+                <div class="t-row d-flex flex-row">
+                    <div id="tab" class="key">Tab</div>
+                    <div id="q" class="key">Q</div>
+                    <div id="w" class="key">W</div>
+                    <div id="e" class="key">E</div>
+                    <div id="r" class="key">R</div>
+                    <div id="t" class="key">T</div>
+                    <div id="y" class="key">Y</div>
+                    <div id="u" class="key">U</div>
+                    <div id="i" class="key">I</div>
+                    <div id="o" class="key">O</div>
+                    <div id="p" class="key">P</div>
+                    <div id="str" class="key">[</div>
+                    <div id="stl" class="key">]</div>
+                    <div id="enter" class="key een border-bottom-0">Enter</div>
+                    <div class="key border-0 "></div>
+                    <div id="del" class="key">Delete</div>
+                    <div id="end" class="key">end</div>
+                    <div id="pd" class="key a"><span>Page</span><span>Down</span><span><i class="fa-solid fa-caret-down"></i></span>
+                    </div>
+                    <div class="key border-0"></div>
+                    <div id="seven2" class="key">7</div>
+                    <div id="eight2" class="key">8</div>
+                    <div id="nine2" class="key">9</div>
+                    <div id="plus2" class="key border-bottom-0">+</div>
+                </div>
+                <div class="f-row d-flex flex-row">
+                    <div id="cl" class="key a"><span>Caps</span><span>Lock</span></div>
+                    <div id="a" class="key">A</div>
+                    <div id="s" class="key">S</div>
+                    <div id="d" class="key">D</div>
+                    <div id="f" class="key">F</div>
+                    <div id="g" class="key">G</div>
+                    <div id="h" class="key">H</div>
+                    <div id="j" class="key">J</div>
+                    <div id="k" class="key">K</div>
+                    <div id="l" class="key">L</div>
+                    <div id="simicolumn" class="key">;</div>
+                    <div id="tComa" class="key">'</div>
+                    <div id="sss" class="key">\</div>
+                    <div class="key border-0 border-top "></div>
+                    <div id="ent" class="key enter border-top-0"></div>
+                    <div class="key border-0 "></div>
+                    <div class="key border-0 "></div>
+                    <div class="key border-0 "></div>
+                    <div class="key border-0"></div>
+                    <div class="key border-0"></div>
+                    <div id="four2" class="key">4</div>
+                    <div id="five2" class="key">5</div>
+                    <div id="six2" class="key">6</div>
+                    <div id="bbttnn" class="key border-top-0"></div>
+                </div>
+                <div class="ff-row d-flex flex-row">
+                    <div id="Shift" class="key">Shift</div>
+                    <div id="ssss" class="key">\</div>
+                    <div id="z" class="key">Z</div>
+                    <div id="x" class="key">X</div>
+                    <div id="c" class="key">C</div>
+                    <div id="v" class="key">V</div>
+                    <div id="b" class="key">B</div>
+                    <div id="n" class="key">N</div>
+                    <div id="m" class="key">M</div>
+                    <div id="bComa" class="key">,</div>
+                    <div id="point" class="key">.</div>
+                    <div id="qmark" class="key">?</div>
+                    <div id="Shift1" class="key bsss">Shift</div>
+                    <div class="key border-0 "></div>
+                    <div class="key border-0"></div>
+                    <div id="top" class="key arr"><i class="fa-solid fa-caret-up"></i></div>
+                    <div class="key border-0 "></div>
+                    <div class="key border-0"></div>
+                    <div id="one2" class="key">1</div>
+                    <div id="tow2" class="key">2</div>
+                    <div id="three2" class="key">3</div>
+                    <div id="enter2" class="key border-bottom-0">Enter</div>
+                </div>
+                <div class="s-row d-flex flex-row">
+                    <div id="ctrl1" class="key">Ctrl</div>
+                    <div id="ws1" class="key">Widows</div>
+                    <div id="alt1" class="key">Alt</div>
+                    <div id="space" class="key space"></div>
+                    <div id="ag" class="key">Alt Gr</div>
+                    <div id="ws2" class="key">Widows</div>
+                    <div id="paper" class="key"><i class="fa-regular fa-newspaper"></i></div>
+                    <div id="ctrl2" class="key">Ctrl</div>
+                    <div class="key border-0"></div>
+                    <div class="key border-0"></div>
+                    <div id="arrl" class="key arr"><i class="fa-solid fa-caret-left"></i></div>
+                    <div id="arrt" class="key arr"><i class="fa-solid fa-caret-down"></i></div>
+                    <div id="arrr" class="key arr"><i class="fa-solid fa-caret-right"></i></div>
+                    <div class="key border-0 "></div>
+                    <div id="zero2" class="key zero">0</div>
+                    <div id="point2" class="key">.</div>
+                    <div id="ent2" class="key border-top-0"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
